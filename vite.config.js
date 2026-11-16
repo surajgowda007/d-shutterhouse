@@ -1,10 +1,12 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
   plugins: [
     react(),
+    tailwindcss(),
 
     VitePWA({
       registerType: "autoUpdate",
@@ -18,15 +20,13 @@ export default defineConfig({
       manifest: {
         name: "D SHUTTERHOUSE",
         short_name: "DShutter",
-        description:
-          "Premium Cinematic Photography & Filmmaking",
+        description: "Premium Cinematic Photography & Filmmaking",
 
         theme_color: "#000000",
         background_color: "#000000",
 
         display: "standalone",
         orientation: "portrait",
-
         start_url: "/",
 
         icons: [

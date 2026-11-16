@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 // Vehicle Delivery Videos
-import delivery1 from "../../assets/videos/deliveries/delivery1.MOV";
-import delivery2 from "../../assets/videos/deliveries/delivery2.MOV";
-import delivery3 from "../../assets/videos/deliveries/delivery4.MOV";
-import delivery4 from "../../assets/videos/deliveries/delivery5.MOV";
-import delivery5 from "../../assets/videos/deliveries/delivery6.MOV";
-import delivery6 from "../../assets/videos/deliveries/delivery7.MOV";
-import delivery7 from "../../assets/videos/deliveries/delivery9.MOV";
-import delivery8 from "../../assets/videos/deliveries/delivery11.MOV";
+import delivery1 from "../../assets/videos/deliveries/delivery1.mp4";
+import delivery2 from "../../assets/videos/deliveries/delivery2.mp4";
+import delivery3 from "../../assets/videos/deliveries/delivery4.mp4";
+import delivery4 from "../../assets/videos/deliveries/delivery5.mp4";
+import delivery5 from "../../assets/videos/deliveries/delivery6.mp4";
+import delivery6 from "../../assets/videos/deliveries/delivery7.mp4";
+import delivery7 from "../../assets/videos/deliveries/delivery9.mp4";
+import delivery8 from "../../assets/videos/deliveries/delivery11.mp4";
 
 // Commercial Videos
-import commercial1 from "../../assets/videos/commercial/commercial1.MOV";
-import commercial2 from "../../assets/videos/commercial/commercial2.MOV";
+import commercial1 from "../../assets/videos/commercial/Commercial1.mp4";
+import commercial2 from "../../assets/videos/commercial/Commercial2.mp4";
 
 function Portfolio() {
   return (
