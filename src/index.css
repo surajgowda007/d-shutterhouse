@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Sora", sans-serif;
+  --font-body: "Manrope", sans-serif;
+}
+
+/* ========================= */
+/* Reset */
+/* ========================= */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* ========================= */
+/* Base */
+/* ========================= */
+
+html{
+  scroll-behavior:smooth;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  min-height:100%;
+  background:#000;
+  color:#fff;
+  overflow-x:hidden;
+  font-family:"Manrope",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility;
+}
+
+/* ========================= */
+/* Typography */
+/* ========================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family:"Sora",sans-serif;
+}
+
+/* ========================= */
+/* Media */
+/* ========================= */
+
+video{
+  pointer-events:none;
+  display:block;
+  max-width:100%;
+}
+
+/* ========================= */
+/* Selection */
+/* ========================= */
+
+::selection{
+  background:#dc2626;
+  color:#ffffff;
+}
+
+/* ========================= */
+/* Scrollbar */
+/* ========================= */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#000;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#404040;
+  border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:#dc2626;
+}
+
+/* ========================= */
+/* Cursor */
+/* ========================= */
+
+*{
+  cursor:none;
+}
