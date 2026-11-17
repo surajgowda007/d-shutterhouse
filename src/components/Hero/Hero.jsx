@@ -54,9 +54,8 @@ function Hero() {
 
       {/* Hero Container */}
 
-      <div className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-40 md:pt-28 lg:pt-24">
-
-        {/* LEFT SIDE */}
+      <div className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-32 md:pt-28 lg:pt-24"
+             {/* Left Side */}
 
         <motion.div
           initial={{ opacity: 0, x: -80 }}
@@ -97,7 +96,7 @@ function Hero() {
     duration: 1.2,
     delay: 0.3,
   }}
-  className="text-white text-4xl sm:text-5xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-tight pt-2"
+  className="text-white text-3xl sm:text-5xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-tight pt-6"
 >
   YOUR <span className="text-red-500">VISION.</span>
 </motion.h1>
