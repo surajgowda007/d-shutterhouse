@@ -22,7 +22,7 @@ function InstagramSection() {
             Follow Our Journey
           </p>
 
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 break-all px-2">
             @d_shutterhouse
           </h2>
 

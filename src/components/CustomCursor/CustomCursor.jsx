@@ -2,6 +2,13 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useState } from "react";
 
 function CustomCursor() {
+  // Hide cursor completely on touch devices
+  const isMobile =
+    typeof window !== "undefined" &&
+    window.matchMedia("(hover: none), (pointer: coarse)").matches;
+
+  if (isMobile) return null;
+
   const mouseX = useMotionValue(-100);
   const mouseY = useMotionValue(-100);
 
@@ -13,6 +20,16 @@ function CustomCursor() {
   const y = useSpring(mouseY, {
     stiffness: 450,
     damping: 35,
+  });
+
+  const innerX = useSpring(mouseX, {
+    stiffness: 700,
+    damping: 40,
+  });
+
+  const innerY = useSpring(mouseY, {
+    stiffness: 700,
+    damping: 40,
   });
 
   const [hover, setHover] = useState(false);
@@ -45,7 +62,7 @@ function CustomCursor() {
         el.removeEventListener("mouseleave", removeHover);
       });
     };
-  }, []);
+  }, [mouseX, mouseY]);
 
   return (
     <>
@@ -56,9 +73,7 @@ function CustomCursor() {
           height: hover ? 70 : 38,
           borderColor: hover ? "#ef4444" : "#ffffff",
         }}
-        transition={{
-          duration: 0.25,
-        }}
+        transition={{ duration: 0.25 }}
         style={{
           x,
           y,
@@ -73,18 +88,10 @@ function CustomCursor() {
         animate={{
           scale: hover ? 0.4 : 1,
         }}
-        transition={{
-          duration: 0.2,
-        }}
+        transition={{ duration: 0.2 }}
         style={{
-          x: useSpring(mouseX, {
-            stiffness: 700,
-            damping: 40,
-          }),
-          y: useSpring(mouseY, {
-            stiffness: 700,
-            damping: 40,
-          }),
+          x: innerX,
+          y: innerY,
           translateX: "-50%",
           translateY: "-50%",
         }}

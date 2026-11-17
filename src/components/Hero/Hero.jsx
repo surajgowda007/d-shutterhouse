@@ -54,7 +54,7 @@ function Hero() {
 
       {/* Hero Container */}
 
-      <div className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between px-8 lg:px-16 pt-24">
+      <div className="<div className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-24">
 
         {/* LEFT SIDE */}
 
