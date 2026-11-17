@@ -54,9 +54,7 @@ function Hero() {
 
       {/* Hero Container */}
 
-      <div className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-32 md:pt-28 lg:pt-24"
-             {/* Left Side */}
-
+      className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-52 md:pt-36 lg:pt-24"
         <motion.div
           initial={{ opacity: 0, x: -80 }}
           animate={{ opacity: 1, x: 0 }}
