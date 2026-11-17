@@ -83,30 +83,24 @@ function Hero() {
           {/* Heading */}
 
           <motion.h1
-            initial={{
-              opacity: 0,
-              y: 70,
-              filter: "blur(15px)",
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              filter: "blur(0px)",
-            }}
-            transition={{
-              duration: 1.2,
-              delay: .3,
-            }}
-            className="text-white text-5xl sm:text-6xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-[0.92] pt-2"
-          >
-            YOUR
-            <br />
-
-            <span className="text-red-500">
-              VISION.
-            </span>
-
-          </motion.h1>
+  initial={{
+    opacity: 0,
+    y: 70,
+    filter: "blur(15px)",
+  }}
+  animate={{
+    opacity: 1,
+    y: 0,
+    filter: "blur(0px)",
+  }}
+  transition={{
+    duration: 1.2,
+    delay: 0.3,
+  }}
+  className="text-white text-4xl sm:text-5xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-tight pt-2"
+>
+  YOUR <span className="text-red-500">VISION.</span>
+</motion.h1>
 
           <motion.h2
             initial={{ opacity: 0 }}
