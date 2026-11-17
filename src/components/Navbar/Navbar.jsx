@@ -50,10 +50,10 @@ function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.8 }}
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-black/85 backdrop-blur-xl border-b border-red-500/20 shadow-2xl py-2"
-          : "bg-black/30 backdrop-blur-lg border-b border-white/10 py-5"
-      }`}
+  scrolled
+    ? "bg-black/85 backdrop-blur-xl border-b border-red-500/20 shadow-2xl py-2"
+    : "bg-black/30 backdrop-blur-lg border-b border-white/10 py-3 md:py-5"
+}`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-8">
 
@@ -68,7 +68,7 @@ function Navbar() {
               scale: scrolled ? 0.92 : 1,
             }}
             transition={{ duration: 0.3 }}
-            className="w-52 lg:w-56 object-contain cursor-pointer"
+            className="w-36 sm:w-44 lg:w-56 object-contain cursor-pointer"
           />
         </a>
 
