@@ -54,7 +54,7 @@ function Hero() {
 
       {/* Hero Container */}
 
-      <div className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-36 md:pt-28 lg:pt-24">
+      <div className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-40 md:pt-28 lg:pt-24">
 
         {/* LEFT SIDE */}
 
@@ -97,7 +97,7 @@ function Hero() {
               duration: 1.2,
               delay: .3,
             }}
-            className="text-white text-6xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-[0.92]"
+            className="text-white text-5xl sm:text-6xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-[0.92] pt-2"
           >
             YOUR
             <br />
@@ -112,7 +112,7 @@ function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: .6 }}
-            className="text-gray-300 text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight mt-4"
+            className="text-gray-300 text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-medium tracking-tight mt-3"
           >
             OUR CREATION.
           </motion.h2>
