@@ -11,15 +11,34 @@ import Footer from "../../components/Footer/Footer";
 function Home() {
   return (
     <Layout>
-      <Hero />
-      <About />
-      <Portfolio />
-      <Services />
-      <Contact />
-      <InstagramSection />
-      <Packages />
-      <Footer />
-    </Layout>
+  <Hero />
+
+  <div className="mt-28 md:mt-36">
+    <About />
+  </div>
+
+  <div className="mt-28 md:mt-36">
+    <Portfolio />
+  </div>
+
+  <div className="mt-28 md:mt-36">
+    <Services />
+  </div>
+
+  <div className="mt-28 md:mt-36">
+    <Contact />
+  </div>
+
+  <div className="mt-28 md:mt-36">
+    <InstagramSection />
+  </div>
+
+  <div className="mt-28 md:mt-36">
+    <Packages />
+  </div>
+
+  <Footer />
+</Layout>
   );
 }
 
