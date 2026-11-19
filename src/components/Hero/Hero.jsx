@@ -54,12 +54,14 @@ function Hero() {
 
       {/* Hero Container */}
 
-      className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-5 sm:px-6 md:px-8 lg:px-16 pt-56 md:pt-32 lg:pt-24"
+      className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between
+px-8 sm:px-10 md:px-12 lg:px-16
+pt-60 md:pt-32 lg:pt-24"
         <motion.div
           initial={{ opacity: 0, x: -80 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="max-w-xl z-20 text-center lg:text-left"
+          className="max-w-xl z-20 text-center lg:text-left px-2 sm:px-0"
         >
 
           {/* Badge */}
@@ -94,7 +96,7 @@ function Hero() {
     duration: 1.2,
     delay: 0.3,
   }}
-  className="text-white text-3xl sm:text-5xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-tight mt-2"
+  className="text-white text-3xl sm:text-5xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-tight mt-2 px-2"
 >
   YOUR <span className="text-red-500">VISION.</span>
 </motion.h1>
