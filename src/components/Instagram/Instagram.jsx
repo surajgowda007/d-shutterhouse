@@ -6,7 +6,7 @@ function InstagramSection() {
   return (
     <section
       id="instagram"
-      className="bg-neutral-950 text-white min-h-screen flex items-center py-20 px-6 md:px-20"
+      className="bg-black py-32 md:py-40 px-6 scroll-mt-24"
     >
       <div className="max-w-5xl mx-auto text-center">
 

@@ -6,7 +6,7 @@ function About() {
 
     <section
       id="about"
-      className="bg-black text-white min-h-screen flex items-center py-28 px-6 md:px-12"
+      className="bg-black py-24 md:py-32 scroll-mt-24"
     >
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center w-full">
 

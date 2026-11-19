@@ -17,7 +17,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-black border-t border-white/10 mt-40 pt-24 pb-8">
+    <footer className="bg-black pt-32 pb-12">
 
       <div className="max-w-7xl mx-auto px-8 lg:px-16">
 

@@ -14,7 +14,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="bg-black text-white py-36 px-6 md:px-20"
+      className="bg-black py-32 md:py-40 px-6 scroll-mt-24"
     >
       <div className="max-w-7xl mx-auto">
 

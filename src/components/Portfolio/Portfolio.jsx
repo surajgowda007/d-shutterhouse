@@ -19,7 +19,7 @@ function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="bg-black text-white min-h-screen py-32 px-6 md:px-20"
+      className="bg-black text-white min-h-screen flex items-center py-32 md:py-40 px-6 md:px-20 scroll-mt-24"
     >
       <div className="max-w-6xl mx-auto">
 
