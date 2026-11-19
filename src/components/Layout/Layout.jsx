@@ -4,7 +4,10 @@ function Layout({ children }) {
   return (
     <div className="bg-black text-white min-h-screen">
       <Navbar />
-      <main>{children}</main>
+
+<main className="pt-24 md:pt-0">
+  {children}
+</main>
     </div>
   );
 }
