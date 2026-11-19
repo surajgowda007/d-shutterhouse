@@ -55,8 +55,8 @@ function Hero() {
       {/* Hero Container */}
 
       className="relative max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between
-px-8 sm:px-10 md:px-12 lg:px-16
-pt-60 md:pt-32 lg:pt-24"
+px-6 sm:px-8 md:px-12 lg:px-16
+pt-72 sm:pt-72 md:pt-32 lg:pt-24"
         <motion.div
           initial={{ opacity: 0, x: -80 }}
           animate={{ opacity: 1, x: 0 }}
@@ -96,7 +96,7 @@ pt-60 md:pt-32 lg:pt-24"
     duration: 1.2,
     delay: 0.3,
   }}
-  className="text-white text-3xl sm:text-5xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-tight mt-2 px-2"
+  className="text-white text-[2rem] sm:text-5xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight leading-tight mt-2 px-4 text-center lg:text-left"
 >
   YOUR <span className="text-red-500">VISION.</span>
 </motion.h1>
@@ -105,7 +105,7 @@ pt-60 md:pt-32 lg:pt-24"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: .6 }}
-            className="text-gray-300 text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-medium tracking-tight mt-3"
+            className="text-gray-300 text-xl sm:text-3xl md:text-5xl lg:text-6xl font-medium tracking-tight mt-3 px-4 text-center lg:text-left"
           >
             OUR CREATION.
           </motion.h2>
@@ -116,7 +116,7 @@ pt-60 md:pt-32 lg:pt-24"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: .9 }}
-            className="mt-8 text-gray-400 text-lg leading-8 font-medium max-w-lg"
+            className="mt-8 text-gray-400 text-lg leading-8 font-medium max-w-lg px-4 lg:px-0 text-center lg:text-left"
           >
             Premium cinematic photography and filmmaking for vehicle
             deliveries, commercial productions, events and social media.
